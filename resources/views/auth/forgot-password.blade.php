@@ -21,5 +21,20 @@
                 {{ __('Email Password Reset Link') }}
             </x-primary-button>
         </div>
+
+        <div class="mt-4 text-center">
+            {{-- <p class="text-sm">
+                {{ __("Don't have an account?") }}
+                <a href="{{ route('register') }}" class="text-blue-500 hover:text-blue-700">
+                    {{ __('Sign up') }}
+                </a>
+            </p> --}}
+            <p class="text-sm mt-2">
+                {{ __("Go back to") }}
+                <a href="{{ route('login') }}" class="text-blue-500 hover:text-blue-700">
+                    {{ __('Log in') }}
+                </a>
+            </p>
+        </div>
     </form>
 </x-guest-layout>

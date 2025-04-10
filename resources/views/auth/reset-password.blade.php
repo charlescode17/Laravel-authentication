@@ -31,5 +31,6 @@
                 {{ __('Reset Password') }}
             </x-primary-button>
         </div>
+        
     </form>
 </x-guest-layout>
